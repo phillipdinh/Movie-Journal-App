@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Journal entries">
+        <ListPreference
+            android:title="Default sort method"
+            android:key="@string/pref_default_sort_method"
+            android:entries="@array/pref_default_sort_method_entries"
+            android:entryValues="@array/pref_default_sort_method_values"
+            android:defaultValue="Alphabetical"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory android:title="@string/pref_category_forecast">-->
+<!--        <EditTextPreference-->
+<!--            android:title="@string/pref_city_title"-->
+<!--            android:key="@string/pref_city_key"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+
+<!--        <ListPreference-->
+<!--            android:title="@string/pref_units_title"-->
+<!--            android:key="@string/pref_units_key"-->
+<!--            android:dialogTitle="@string/pref_units_title"-->
+<!--            android:entries="@array/pref_units_entries"-->
+<!--            android:entryValues="@array/pref_units_values"-->
+<!--            android:defaultValue="@string/pref_units_default_value"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+<!--    </PreferenceCategory>-->
+
+</PreferenceScreen>

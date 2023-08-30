@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/movie_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/nav_movie_search_label"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/journal_entries"
+        android:icon="@drawable/ic_action_journal"
+        android:title="@string/nav_journal_entries_label"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/bookmarks"
+        android:icon="@drawable/ic_action_favorite"
+        android:title="@string/nav_bookmarks_label"
+        app:showAsAction="ifRoom" />
+</menu>

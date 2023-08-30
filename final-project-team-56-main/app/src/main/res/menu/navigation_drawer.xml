@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Movie Journal"
+        android:orderInCategory="1">
+        <menu>
+            <item
+                android:id="@+id/drawer_menu_new_entry"
+                android:icon="@drawable/ic_action_create"
+                android:title="New Entry"
+                android:checkable="true" />
+            <item
+                android:id="@+id/drawer_menu_watchlist"
+                android:icon="@drawable/ic_action_watchlist"
+                android:title="Watchlist"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/drawer_menu_all_entries"
+                android:icon="@drawable/ic_action_journal"
+                android:title="My Journal"
+                android:checkable="true" />
+        </menu>
+    </item>
+    <item
+        android:title="Recent Entries" android:orderInCategory="2">
+        <menu></menu>
+    </item>
+    <item
+        android:title="Other" android:orderInCategory="3">
+        <menu>
+            <item
+                android:id="@+id/drawer_menu_settings"
+                android:icon="@drawable/ic_action_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+</menu>

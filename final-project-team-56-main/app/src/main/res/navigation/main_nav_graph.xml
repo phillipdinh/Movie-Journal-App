@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/movie_search">
+
+    <fragment
+        android:id="@+id/movie_search"
+        android:name="com.example.moviejournal.ui.MovieSearchFragment"
+        android:label="New Entry">
+        <action
+            android:id="@+id/navigate_to_settings"
+            app:destination="@id/settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movie_search_results"
+        android:name="com.example.moviejournal.ui.MovieSearchResultsFragment"
+        android:label="@string/fragment_movie_search_results">
+        <action
+            android:id="@+id/navigate_to_entry_edit"
+            app:destination="@id/entry_edit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/journal"
+        android:name="com.example.moviejournal.ui.JournalFragment"
+        android:label="My Journal">
+        <action
+            android:id="@+id/navigate_to_entry_edit"
+            app:destination="@+id/entry_edit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/entry_edit"
+        android:name="com.example.moviejournal.ui.EntryEditFragment"
+        android:label="Journal Entry">
+            <argument
+                android:name="journal_entry"
+                app:argType="com.example.moviejournal.data.JournalEntry" />
+    </fragment>
+
+    <!-- Added this in to navigate from the EntryView to EntryEdit
+    <fragment
+        android:id="@+id/entry_view"
+        android:name="com.example.moviejournal.ui.EntryViewFragment"
+        android:label="My Journal">
+        <action
+            android:id="@+id/navigate_to_entry_edit"
+            app:destination="@+id/entry_edit" />
+    </fragment>
+    -->
+
+    <fragment
+        android:id="@+id/watchlist"
+        android:name="com.example.moviejournal.ui.WatchlistFragment"
+        android:label="Watchlist">
+        <action
+            android:id="@+id/navigate_to_entry_edit"
+            app:destination="@id/entry_edit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.moviejournal.ui.SettingsFragment"
+        android:label="@string/fragment_settings_label" />
+
+</navigation>

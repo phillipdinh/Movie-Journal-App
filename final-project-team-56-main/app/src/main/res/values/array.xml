@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_default_sort_method_entries">
+        <item>Alphabetical</item>
+        <item>Recently Edited</item>
+        <item>Highest Rating</item>
+        <item>Lowest Rating</item>
+    </array>
+
+    <array name="pref_default_sort_method_values">
+        <item>Alphabetical</item>
+        <item>Recent</item>
+        <item>High</item>
+        <item>Low</item>
+    </array>
+</resources>

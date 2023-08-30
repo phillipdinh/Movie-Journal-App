@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Journal</string>
+
+    <string name="fragment_movie_search_results">Search Results</string>
+    <string name="fragment_settings_label">Settings</string>
+
+
+    <string name="drawer_weather_list_title">Forecast</string>
+    <string name="drawer_settings_title">Settings</string>
+
+    <string name="fragment_weather_list_label">Weather</string>
+    <string name="fragment_forecast_detail_label">Forecast Details</string>
+
+    <string name="loading_error">Unable to fetch movie search results.  Error message: %1$s</string>
+    <string name="action_map_error">No app was found to map the forecast location.  Please install a maps app on your device and try again.</string>
+
+    <string name="forecast_date">%1$tb %1$te</string>
+    <string name="forecast_time">%1$tl:%1$tM %1$tp</string>
+    <string name="forecast_temp">%1$d°%2$s</string>
+    <string name="forecast_pop">%1$d%%</string>
+    <string name="forecast_clouds">%1$d%%</string>
+    <string name="forecast_wind">%1$d%2$s</string>
+    <string name="forecast_date_time">%1$tb %1$te, %1$tl:%1$tM %1$tp</string>
+
+    <string name="action_map_title">View forecast location in map</string>
+    <string name="action_share_title">Share this forecast</string>
+    <string name="action_settings_title">Settings</string>
+
+    <string name="geo_uri">geo:%1$f,%2$f?z=%3$d</string>
+
+    <string name="share_forecast_text">Weather forecast from %1$s for %2$s, %3$s: %4$s with a high of %5$s, a low of %6$s, and a %7$s chance of precipitation.</string>
+    <string name="pref_category_forecast">Forecast settings</string>
+
+    <string name="pref_city_title">City</string>
+    <string name="pref_city_key">city</string>
+
+    <string name="pref_units_title">Weather Units</string>
+    <string name="pref_units_key">units</string>
+
+    <string name="pref_units_entry_imperial">Imperial (e.g. °F)</string>
+    <string name="pref_units_entry_metric">Metric (e.g. °C)</string>
+    <string name="pref_units_entry_standard">Standard (e.g. °K)</string>
+
+    <string name="pref_units_value_imperial">imperial</string>
+    <string name="pref_units_value_metric">metric</string>
+    <string name="pref_units_value_standard">standard</string>
+
+    <string name="pref_units_default_value">@string/pref_units_value_imperial</string>
+
+    <!-- Correct unit display strings for different units preference settings -->
+    <string name="standard_temp_display">K</string>
+    <string name="metric_temp_display">C</string>
+    <string name="imperial_temp_display">F</string>
+    <string name="standard_wind_display">m/s</string>
+    <string name="metric_wind_display">m/s</string>
+    <string name="imperial_wind_display">mph</string>
+    <string name="nav_movie_search_label">Search</string>
+    <string name="nav_journal_entries_label">My Journal</string>
+    <string name="card_search_header">Let\'s make an entry!</string>
+    <string name="card_search_body">Type in a movie to start a new journal entry</string>
+    <string name="nav_bookmarks_label">Bookmarks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entry_edit_thoughts">What were your thoughts?</string>
+    <string name="entry_edit_rating">What is your rating?</string>
+    <string name="pref_default_sort_method">pref_default_sort_method</string>
+
+    <!-- Strings for entry view -->
+    <string name="view_thoughts">Your thoughts: </string>
+    <string name="view_rating">Your rating: </string>
+
+
+</resources>
