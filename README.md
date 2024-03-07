@@ -40,6 +40,19 @@ To run the Movie Journal App on your local machine, follow these steps:
     - Click on the green play button or Shift+F10 to build and run the app on the emulator.
 
 ## Screenshots
+Search
+![image](https://github.com/phillipdinh/Movie-App/assets/64246241/04c1338c-5659-4502-9f59-371f9f7289eb)
+
+Watchlist
+![image](https://github.com/phillipdinh/Movie-App/assets/64246241/ee4b946b-7ddd-4b12-bc64-b4222592bf25)
+![image](https://github.com/phillipdinh/Movie-App/assets/64246241/77d000df-c7b4-4dcd-81d5-9337ac279b4f)
+
+Journal Entry
+![image](https://github.com/phillipdinh/Movie-App/assets/64246241/4f81ecc4-e4c3-4d68-ad2a-e2f1a7eb776b)
+![image](https://github.com/phillipdinh/Movie-App/assets/64246241/627854d5-7c1e-4d38-abfd-60a696c95d34)
+
+Side Menu
+![image](https://github.com/phillipdinh/Movie-App/assets/64246241/5796be0c-7849-4d2d-923f-15b88805426a)
 
 ## Acknowledgements
 
