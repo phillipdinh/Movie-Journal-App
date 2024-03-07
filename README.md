@@ -1,6 +1,6 @@
 # Movie Journal App
 
-Welcome to the Movie Journal App! This Android application is designed to help you keep track of movies you've watched, want to watch, and your thoughts and ratings on them.
+Welcome to the Movie Journal App! This Android application is designed to help you find movies, keep track of movies you want to watch, and write down your thoughts on movies you've already seen.
 
 ## Features
 
@@ -12,7 +12,7 @@ Welcome to the Movie Journal App! This Android application is designed to help y
 
 -   Kotlin
 -   Android Studio
--   SQLite Database for data storage
+-   SQLite Database
 
 ## Getting Started
 
@@ -40,19 +40,24 @@ To run the Movie Journal App on your local machine, follow these steps:
     - Click on the green play button or Shift+F10 to build and run the app on the emulator.
 
 ## Screenshots
-Search
-![image](https://github.com/phillipdinh/Movie-App/assets/64246241/04c1338c-5659-4502-9f59-371f9f7289eb)
 
-Watchlist
-![image](https://github.com/phillipdinh/Movie-App/assets/64246241/ee4b946b-7ddd-4b12-bc64-b4222592bf25)
-![image](https://github.com/phillipdinh/Movie-App/assets/64246241/77d000df-c7b4-4dcd-81d5-9337ac279b4f)
+**Search**
 
-Journal Entry
-![image](https://github.com/phillipdinh/Movie-App/assets/64246241/4f81ecc4-e4c3-4d68-ad2a-e2f1a7eb776b)
-![image](https://github.com/phillipdinh/Movie-App/assets/64246241/627854d5-7c1e-4d38-abfd-60a696c95d34)
+<img src="https://github.com/phillipdinh/Movie-App/assets/64246241/04c1338c-5659-4502-9f59-371f9f7289eb" width="300">
 
-Side Menu
-![image](https://github.com/phillipdinh/Movie-App/assets/64246241/5796be0c-7849-4d2d-923f-15b88805426a)
+**Watchlist**
+
+<img src="https://github.com/phillipdinh/Movie-App/assets/64246241/ee4b946b-7ddd-4b12-bc64-b4222592bf25" width="300">
+<img src="https://github.com/phillipdinh/Movie-App/assets/64246241/77d000df-c7b4-4dcd-81d5-9337ac279b4f" width="300">
+
+**Journal Entry**
+
+<img src="https://github.com/phillipdinh/Movie-App/assets/64246241/4f81ecc4-e4c3-4d68-ad2a-e2f1a7eb776b" width="300">
+<img src="https://github.com/phillipdinh/Movie-App/assets/64246241/627854d5-7c1e-4d38-abfd-60a696c95d34" width="300">
+
+**Side Menu**
+
+<img src="https://github.com/phillipdinh/Movie-App/assets/64246241/5796be0c-7849-4d2d-923f-15b88805426a" width="300">
 
 ## Acknowledgements
 
